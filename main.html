@@ -9,9 +9,6 @@
 <body>	
 	<script>
 		function secondHighest(arr) {
-			if(arr.length==0||arr.length==1||){
-				console.log("-Infinity");
-			}
 			arr.sort((a,b)=>b-a);
          return arr[1];
 		}
